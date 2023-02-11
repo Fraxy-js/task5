@@ -64,6 +64,7 @@ a {
     width: 260px;
     margin-left: -50px;
     background-color: white;
+    border-radius: 5px;
 }
 .feature-dp ul li{
     position: relative;
@@ -77,27 +78,30 @@ a {
     position: absolute;
     margin-left: 150px;
     margin-top: -30px;
-    height: 100px;
+    height: 200px;
     width: 260px;
     background-color: white;
+    border-radius: 5px;
 }
 .content2{
     display: none;
     position: absolute;
     margin-left: 150px;
     margin-top: -30px;
-    height: 100px;
+    height: 200px;
     width: 260px;
     background-color: white;
+    border-radius: 5px;
 }
 .content3{
     display: none;
     position: absolute;
     margin-left: 150px;
     margin-top: -30px;
-    height: 100px;
+    height: 200px;
     width: 300px;
     background-color: white;
+    border-radius: 5px;
 }
 .content4{
     display: none;
@@ -107,6 +111,7 @@ a {
     height: 100px;
     width: 260px;
     background-color: white;
+    border-radius: 5px;
 }
 .feature-dp li:hover .content1{
     display: block;
@@ -124,3 +129,156 @@ a {
 ul.menu li {
     float: left;
 }
+.menu3{
+    height: 65px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.089);
+}
+.menu3ic{
+    background-color: #ffffff;
+    height: 53px;
+    width: 70%;
+    align-items: end;
+    justify-content: space-around;
+}
+.menu3 .comp:hover a{
+    color: #2a27e9;
+}
+.menu3 .comp:hover i{
+    color: #2a27e9;
+}
+.menu3 .phones:hover a{
+    color: #2a27e9;
+}
+.menu3 .phones:hover i{
+    color: #2a27e9;
+}
+.menu3 .watches:hover a{
+    color: #2a27e9;
+}
+.menu3 .watches:hover i{
+    color: #2a27e9;
+}
+.menu3 .tv:hover a{
+    color: #2a27e9;
+}
+.menu3 .tv:hover i{
+    color: #2a27e9;
+}
+.menu3 .tablet:hover a{
+    color: #2a27e9;
+}
+.menu3 .tablet:hover i{
+    color: #2a27e9;
+}
+.menu3 .gaming:hover a{
+    color: #2a27e9;
+}
+.menu3 .gaming:hover i{
+    color: #2a27e9;
+}
+.menu3 .viewall:hover a{
+    color: #2a27e9;
+}
+.menu3 .viewall:hover i{
+    color: #2a27e9;
+}
+.comp,.phones,.watches,.tv,.tablet,.gaming,.viewall{
+    position: relative;
+}
+.comp:after{
+    content: "";
+    position: absolute;
+    background-color: rgb(55, 6, 190);
+    height: 3px;
+    width: 0;
+    bottom: -10px;
+    transition: 0.150s;
+}
+
+.comp:hover:after{
+    width: 100%;
+}
+.phones:after{
+    content: "";
+    position: absolute;
+    background-color: rgb(55, 6, 190);
+    height: 3px;
+    width: 0;
+    bottom: -10px;
+    transition: 0.150s;
+}
+.phones:hover:after{
+    width: 100%;
+}
+.watches:after{
+    content: "";
+    position: absolute;
+    background-color: rgb(55, 6, 190);
+    height: 3px;
+    width: 0;
+    bottom: -10px;
+    transition: 0.150s;
+}
+
+.watches:hover:after{
+    width: 100%;
+}
+.tv:after{
+    content: "";
+    position: absolute;
+    background-color: rgb(55, 6, 190);
+    height: 3px;
+    width: 0;
+    bottom: -10px;
+    transition: 0.150s;
+}
+
+.tv:hover:after{
+    width: 100%;
+}
+.tablet:after{
+    content: "";
+    position: absolute;
+    background-color: rgb(55, 6, 190);
+    height: 3px;
+    width: 0;
+    bottom: -10px;
+    transition: 0.150s;
+}
+
+.tablet:hover:after{
+    width: 100%;
+}
+.gaming:after{
+    content: "";
+    position: absolute;
+    background-color: rgb(55, 6, 190);
+    height: 3px;
+    width: 0;
+    bottom: -10px;
+    transition: 0.150s;
+}
+
+.gaming:hover:after{
+    width: 100%;
+}
+.viewall:after{
+    content: "";
+    position: absolute;
+    background-color: rgb(55, 6, 190);
+    height: 3px;
+    width: 0;
+    bottom: -10px;
+    transition: 0.150s;
+}
+
+.viewall:hover:after{
+    width: 100%;
+}
+
+
