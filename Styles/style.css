@@ -1,0 +1,126 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.menu_bar{
+    height: 54px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.menu ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+}
+.menu a{
+    color: #73748c;
+    font-size: 15px;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.menu li:hover a{
+    color: #2a27e9;
+}
+.menu2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+    padding: 0px 110px;  
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+}
+.input{
+    border: 0;
+    cursor: text;
+    outline: none;
+    height: 30px;
+    width: 90%;
+}
+.search{
+    border: 1px solid#2a27e9;
+    margin: 25px;
+    padding: 5px;
+    border-radius: 5px;
+    width: 45%;
+    height: 30px;
+}
+.feature-dp{
+    display: none;
+    position: absolute;
+    height: 170px;
+    width: 260px;
+    margin-left: -50px;
+    background-color: white;
+}
+.feature-dp ul li{
+    position: relative;
+    float: left;
+}
+.menu li:hover .feature-dp{
+    display: block;
+}
+.content1{
+    display: none;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: -30px;
+    height: 100px;
+    width: 260px;
+    background-color: white;
+}
+.content2{
+    display: none;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: -30px;
+    height: 100px;
+    width: 260px;
+    background-color: white;
+}
+.content3{
+    display: none;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: -30px;
+    height: 100px;
+    width: 300px;
+    background-color: white;
+}
+.content4{
+    display: none;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: -30px;
+    height: 100px;
+    width: 260px;
+    background-color: white;
+}
+.feature-dp li:hover .content1{
+    display: block;
+}
+.feature-dp li:hover .content2{
+    display: block;
+}
+.feature-dp li:hover .content3{
+    display: block;
+}
+.feature-dp li:hover .content4{
+    display: block;
+}
+
+ul.menu li {
+    float: left;
+}
