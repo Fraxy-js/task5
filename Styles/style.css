@@ -193,7 +193,7 @@ ul.menu li {
 .comp:after{
     content: "";
     position: absolute;
-    background-color: rgb(55, 6, 190);
+    background-color: #2a27e9;
     height: 3px;
     width: 0;
     bottom: -10px;
@@ -206,7 +206,7 @@ ul.menu li {
 .phones:after{
     content: "";
     position: absolute;
-    background-color: rgb(55, 6, 190);
+    background-color: #2a27e9;
     height: 3px;
     width: 0;
     bottom: -10px;
@@ -218,7 +218,7 @@ ul.menu li {
 .watches:after{
     content: "";
     position: absolute;
-    background-color: rgb(55, 6, 190);
+    background-color: #2a27e9;
     height: 3px;
     width: 0;
     bottom: -10px;
@@ -231,7 +231,7 @@ ul.menu li {
 .tv:after{
     content: "";
     position: absolute;
-    background-color: rgb(55, 6, 190);
+    background-color: #2a27e9;
     height: 3px;
     width: 0;
     bottom: -10px;
@@ -244,7 +244,7 @@ ul.menu li {
 .tablet:after{
     content: "";
     position: absolute;
-    background-color: rgb(55, 6, 190);
+    background-color: #2a27e9;
     height: 3px;
     width: 0;
     bottom: -10px;
@@ -257,7 +257,7 @@ ul.menu li {
 .gaming:after{
     content: "";
     position: absolute;
-    background-color: rgb(55, 6, 190);
+    background-color: #2a27e9;
     height: 3px;
     width: 0;
     bottom: -10px;
@@ -270,7 +270,7 @@ ul.menu li {
 .viewall:after{
     content: "";
     position: absolute;
-    background-color: rgb(55, 6, 190);
+    background-color: #2a27e9;
     height: 3px;
     width: 0;
     bottom: -10px;
@@ -280,5 +280,36 @@ ul.menu li {
 .viewall:hover:after{
     width: 100%;
 }
+.comp-content{
+    display: none;
+    position: absolute;
+    justify-content: space-around;
+    align-items: center;
+    width: 2002px;
+    height: 350px;
+    margin-top: 50px;
+    top: 0px;
+    left: -320px;
+    background-color: rgb(255, 255, 255);
+}
+.menu3ic .comp:hover .comp-content{
+    display: flex;
+}
+.comp-left p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.findout{
+    border-radius: 8px;
+    background-color: #2a27e9;
+    cursor: pointer;
+    width: 140px;
+    height: 45px;
+}
 
-
+.comp-left p:hover{
+    color: #2a27e9;
+}
+.button .findout:hover{
+    background-color: #1b1994;
+}
