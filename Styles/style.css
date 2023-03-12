@@ -63,7 +63,7 @@ a {
     height: 170px;
     width: 260px;
     margin-left: -50px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     border-radius: 5px;
 }
 .feature-dp ul li{
@@ -280,7 +280,7 @@ ul.menu li {
 .viewall:hover:after{
     width: 100%;
 }
-.comp-content{
+.comp-content, .phones-content,.watches-content,.tv-content,.tablet-content,.gaming-content{
     display: none;
     position: absolute;
     justify-content: space-around;
@@ -295,7 +295,42 @@ ul.menu li {
 .menu3ic .comp:hover .comp-content{
     display: flex;
 }
+.menu3ic .phones:hover .phones-content{
+    display: flex;
+}
+.menu3ic .watches:hover .watches-content{
+    display: flex;
+}
+.menu3ic .tv:hover .tv-content{
+    display: flex;
+}
+.menu3ic .tablet:hover .tablet-content{
+    display: flex;
+}
+.menu3ic .gaming:hover .gaming-content{
+    display: flex;
+}
 .comp-left p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.phones-left p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.watches-left p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.tv-left p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.tablet-left p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.gaming-left p{
     font-size: 20px;
     font-weight: bold;
 }
@@ -308,6 +343,21 @@ ul.menu li {
 }
 
 .comp-left p:hover{
+    color: #2a27e9;
+}
+.phones-left p:hover{
+    color: #2a27e9;
+}
+.watches-left p:hover{
+    color: #2a27e9;
+}
+.tv-left p:hover{
+    color: #2a27e9;
+}
+.tablet-left p:hover{
+    color: #2a27e9;
+}
+.gaming-left p:hover{
     color: #2a27e9;
 }
 .button .findout:hover{
